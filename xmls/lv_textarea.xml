@@ -10,6 +10,7 @@ Example
         <prop name="one_line" type="bool" help="Enable single-line mode"/>
         <prop name="password_mode" type="bool" help="Enable password masking"/>
         <prop name="password_show_time" type="int" help="Set delay to show typed chars (ms)"/>
+        <prop name="password_bullet" type="string" help="Set the character for masked password. Ensure the chosen font has the same character"/>
         <prop name="text_selection" type="bool" help="Enable text selection"/>
         <prop name="cursor_pos" type="int" help="Set cursor position (0-based)"/>
     </api>

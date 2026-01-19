@@ -60,6 +60,7 @@ void lv_xml_textarea_apply(lv_xml_parser_state_t * state, const char ** attrs)
         else if(lv_streq("one_line", name)) lv_textarea_set_one_line(item, lv_xml_to_bool(value));
         else if(lv_streq("password_mode", name)) lv_textarea_set_password_mode(item, lv_xml_to_bool(value));
         else if(lv_streq("password_show_time", name)) lv_textarea_set_password_show_time(item, lv_xml_atoi(value));
+        else if(lv_streq("password_bullet", name)) lv_textarea_set_password_bullet(item, value);
         else if(lv_streq("text_selection", name)) lv_textarea_set_text_selection(item, lv_xml_to_bool(value));
         else if(lv_streq("cursor_pos", name)) lv_textarea_set_cursor_pos(item, lv_xml_atoi(value));
     }
